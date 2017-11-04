@@ -1,0 +1,62 @@
+{
+  "mpd": {
+    "host": "192.168.0.179",
+    "port": 6600,
+    "password": "password"
+  },
+  "plugins": ["plugin-test"],
+  "layout": {
+    "component": "splitter",
+    "vertical": true,
+    "layout": [
+      {
+        "component": "splitter",
+        "size": "40px",
+        "color": "#0077ff",
+        "text-color": "white",
+        "layout": [
+          {
+            "component": "text-label",
+            "size": "50px",
+            "text": "(PlayPause)"
+          },
+          {
+            "component": "text-label",
+            "text": "Seek Bar"
+          },
+          {
+            "component": "text-label",
+            "size": "70px",
+            "text": "Volume"
+          },
+          {
+            "component": "text-label",
+            "size": "45px",
+            "text": "Menu"
+          }
+        ]
+      },
+      {
+        "component": "text-label",
+        "text": "(Playlist)",
+        "color": "white"
+      },
+      {
+        "component": "splitter",
+        "size": "24px",
+        "color": "#dddddd",
+        "layout": [
+          {
+            "component": "text-label",
+            "text": "Status bar"
+          },
+          {
+            "component": "text-label",
+            "size": "100px",
+            "text": "Buttons? idk"
+          }
+        ]
+      }
+    ]
+  }
+}
