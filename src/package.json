@@ -1,5 +1,5 @@
 {
-  "name": "electron-mpc",
+  "name": "mpc-electron",
   "version": "0.1.0",
   "main": "main/index.js"
 }
